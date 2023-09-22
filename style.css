@@ -1,0 +1,36 @@
+
+html, body {
+  font-family: futura, Sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: #cfcfcf;
+}
+h1 {
+  grid-area: header;
+  background-color: #9e9a9a;
+  padding: 2px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+#img-div {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#img-div img {
+  max-width: 100%;
+  width: 60%;
+  height: 60%;
+}
+#img-caption {
+  text-align: center;
+}
+#tribute-link {
+  display: inline-block;
+  background-color: #7287d5;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #ffffff;
+}
